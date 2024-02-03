@@ -742,6 +742,8 @@ public:
         setTitleBarHeight (0);
        #else
         setTitleBarButtonsRequired (DocumentWindow::minimiseButton | DocumentWindow::closeButton, false);
+        // WizeMiceHost modification in order to allow Fullscreen setup from linux side
+        setUsingNativeTitleBar(true);
 
         Component::addAndMakeVisible (optionsButton);
         optionsButton.addListener (this);
