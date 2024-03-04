@@ -2001,8 +2001,10 @@ void Component::removeComponentListener (ComponentListener* listenerToRemove)
 //==============================================================================
 void Component::inputAttemptWhenModal()
 {
-    ModalComponentManager::getInstance()->bringModalComponentsToFront();
-    getLookAndFeel().playAlertSound();
+    // WizeMice Change to close WizeMiceHost Audio Settings with OutsideClick
+    ModalComponentManager::getInstance()->cancelAllModalComponents();
+    // ModalComponentManager::getInstance()->bringModalComponentsToFront();
+    // getLookAndFeel().playAlertSound();
 }
 
 bool Component::canModalEventBeSentToComponent (const Component*)
