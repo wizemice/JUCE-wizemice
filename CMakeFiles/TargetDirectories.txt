@@ -1,0 +1,8 @@
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/CMakeFiles/juce_lv2_helper.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/CMakeFiles/juce_vst3_helper.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/CMakeFiles/INSTALL.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/CMakeFiles/ALL_BUILD.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/CMakeFiles/ZERO_CHECK.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/modules/CMakeFiles/INSTALL.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/extras/Build/CMakeFiles/INSTALL.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/extras/Build/juceaide/CMakeFiles/INSTALL.dir

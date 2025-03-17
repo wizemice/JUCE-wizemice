@@ -1,0 +1,7 @@
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/tools/CMakeFiles/INSTALL.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/tools/CMakeFiles/ALL_BUILD.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/tools/CMakeFiles/ZERO_CHECK.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/tools/modules/CMakeFiles/INSTALL.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/tools/extras/Build/CMakeFiles/INSTALL.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/tools/extras/Build/juceaide/CMakeFiles/juceaide.dir
+C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/tools/extras/Build/juceaide/CMakeFiles/INSTALL.dir

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\source\WizeChain\WizeHostCMake\Libraries\JUCE-wizemice\CMakeFiles\e30ef944e7b9750224e20a26ed151abc\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9C2AD8F9-127B-382B-A155-3CF73D9D0CB3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

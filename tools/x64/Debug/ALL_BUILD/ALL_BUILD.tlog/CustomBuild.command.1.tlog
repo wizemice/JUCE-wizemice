@@ -1,0 +1,10 @@
+^C:\SOURCE\WIZECHAIN\WIZEHOSTCMAKE\LIBRARIES\JUCE-WIZEMICE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice -BC:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/tools --check-stamp-file C:/source/WizeChain/WizeHostCMake/Libraries/JUCE-wizemice/tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

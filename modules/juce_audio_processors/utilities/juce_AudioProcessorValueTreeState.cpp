@@ -320,6 +320,17 @@ RangedAudioParameter* AudioProcessorValueTreeState::createAndAddParameter (std::
     return param.release();
 }
 
+AudioProcessorValueTreeState::ParameterLayout createParameterLayout()
+{
+    std::vector<std::unique_ptr<RangedAudioParameter>> params;
+
+    // Define your parameters here, e.g.:
+    params.push_back(std::make_unique<AudioParameterFloat>("paramID", "Parameter Name", NormalisableRange<float>(0.0f, 1.0f), 0.5f));
+
+    return { params.begin(), params.end() };
+}
+
+
 //==============================================================================
 void AudioProcessorValueTreeState::addParameterAdapter (RangedAudioParameter& param)
 {

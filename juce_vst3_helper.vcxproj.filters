@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\source\WizeChain\WizeHostCMake\Libraries\JUCE-wizemice\modules\juce_audio_plugin_client\VST3\juce_VST3ManifestHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\source\WizeChain\WizeHostCMake\Libraries\JUCE-wizemice\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6319F115-E981-3458-B05D-53DFD9EAB90D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

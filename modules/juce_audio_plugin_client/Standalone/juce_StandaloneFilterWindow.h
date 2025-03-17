@@ -559,6 +559,14 @@ private:
                 shouldMuteLabel.attachToComponent (&shouldMuteButton, true);
             }
         }
+        //WizeMice modification to save settings when the dialog is closed
+        ~SettingsComponent() override
+        {
+        // When the dialog is closed, the component is destroyed,
+        // so we save the audio device state here.
+        owner.saveAudioDeviceState();
+        DBG("Audio settings saved on dialog close.");
+        }
 
         void paint (Graphics& g) override
         {

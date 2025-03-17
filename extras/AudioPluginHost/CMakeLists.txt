@@ -20,7 +20,7 @@
 #  DISCLAIMED.
 #
 # ==============================================================================
-
+cmake_minimum_required(VERSION 3.26)
 juce_add_gui_app(AudioPluginHost
     BUNDLE_ID                       com.juce.pluginhost
     ICON_BIG                        "${CMAKE_CURRENT_SOURCE_DIR}/Source/JUCEAppIcon.png"
